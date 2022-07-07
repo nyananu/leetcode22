@@ -6,8 +6,8 @@
 4) check each char, and if popped brace is not it's opposite -> return false (because ordered braces)
 5) after all popping, even then if stack is not empty -> return false, else true "(){}[["
 
-Time: O(n)
-Space: O(1)
+Time: O(n) // takes as much time as it does to go thru the string
+Space: O(n) // using stack, so stack can be up to the size of the input
 */
 public class Solution {
     public boolean isValid(String s) {
